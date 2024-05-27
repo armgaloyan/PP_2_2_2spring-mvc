@@ -1,11 +1,14 @@
 package web.model;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class Car {
     private String model;
     private String color;
     private int series;
+
     public Car(String model, String color, int series) {
         this.model = model;
         this.color = color;
@@ -35,7 +38,6 @@ public class Car {
     public void setSeries(int series) {
         this.series = series;
     }
-
     @Override
     public String toString() {
         return "Car{" +

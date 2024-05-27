@@ -21,4 +21,5 @@ public class CarDao {
     public List<Car> getCars(int count) {
         return cars.stream().limit(count).toList();
     }
+
 }
