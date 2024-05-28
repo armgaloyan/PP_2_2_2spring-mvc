@@ -10,7 +10,7 @@ import web.service.CarServiceImpl;
 @Controller
 public class CarController {
     private final CarService carService;
-    public CarController(CarServiceImpl carService) {
+    public CarController(CarService carService) {
         this.carService = carService;
     }
     @GetMapping( "/cars")
